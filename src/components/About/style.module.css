@@ -1,0 +1,25 @@
+.about{
+    color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner{
+    width: 75%;
+     position: relative;
+}
+.text_about,.text_us{
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 8vh;
+    position: absolute;
+    letter-spacing: 0.3rem;
+}
+.text_about{
+    top:10px;
+    left: 20vw;
+}
+.text_us{
+    top:6vh;
+    left: 40vw;
+}
