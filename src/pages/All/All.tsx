@@ -1,4 +1,5 @@
 import Navbar from "../../components/Navbar/Navbar";
+import Footer from "../../components/Footer/Footer";
 import styles from "./style.module.css";
 import { Outlet } from "react-router-dom"
 
@@ -7,6 +8,7 @@ const All = () => {
     <div>
       <Navbar/>
       <Outlet/>
+      <Footer/>
     </div>
   )
 }
