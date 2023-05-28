@@ -48,15 +48,17 @@
 }
 .right{
     margin: 1vw;
-    gap: 12px;
+    /* gap: 12px; */
 }
 .right h1{
     font-size: 36px;
     font-weight: 600;
+    margin-bottom: 4px;
 }
 .social{
     display: flex;
     gap: 1vw;
+    margin-bottom: 2vw;
 }
 .insta{
     width: 28px;
@@ -64,9 +66,37 @@
 }
 .news{
     display: flex;
-    gap: 4px;
+    gap: 8px;
     align-items: center;
+    margin-bottom: 1vw;
 } 
+.news h3{
+    font-size: 28px;
+    font-weight: 500;
+}
+.right form{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: flex-start;
+}
+.email_input{
+    border: none;
+    color: #555252;
+    border-bottom: 2px solid #555252;
+    background-color: #0E2B43;
+    font-size: 20px;
+    font-weight: 600;
+}
+.signUpBtn{
+    border: none;
+    border-radius: 8px;
+    padding: 0.3vw 1.2vw;
+    color: #0E2B43;
+    background-color: #D9D9D9;
+    font-size: 18px;
+    font-weight: 600;
+}
 .break_line{
     border: 1px solid white;
 }

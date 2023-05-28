@@ -37,12 +37,12 @@ const Footer = () => {
                         <img className={styles.insta} src={instaLogo} alt="insta" />
                     </div>
                     <div className={styles.news}>
-                        <AiOutlineMail size="20"/>
+                        <AiOutlineMail size="28"/>
                         <h3>Subscribe to our newsletter</h3>
                     </div>
                     <form>
-                        <input type="email" placeholder="Enter your e-mail address"/>
-                        <button>Sign Up</button>
+                        <input className={styles.email_input} type="email" placeholder="Enter your e-mail address"/>
+                        <button className={styles.signUpBtn}>Sign Up</button>
                     </form>
                 </div>
             </div>
