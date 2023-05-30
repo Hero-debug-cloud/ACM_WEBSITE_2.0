@@ -4,6 +4,7 @@ import Slider_comp from "../Slider_comp/Slider_comp"
 import About from "../../components/About/About";
 import About_info from "../About_info/About_info";
 import info from "../../../db/info.json";
+import Teams from "../Teams/Teams";
 
 const Home = () => {
   type valuetype={
@@ -20,6 +21,7 @@ const Home = () => {
       {info.map((value:valuetype)=>{
         return <About_info id={value.id} img="something" heading={value.heading} dis={value.dis} position={value.position}/>
       })}
+      <Teams/>
     </div>
   )
 }

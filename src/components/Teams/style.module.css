@@ -1,0 +1,20 @@
+.teams{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* temp */
+    padding: 30px;
+}
+.inner{
+    width: 75%;
+}
+.heading{
+  color: gray;
+  text-transform:uppercase;
+  width: 100%;
+  text-align: center;
+}
+.container{
+    display: flex;
+    padding: 30px;
+}

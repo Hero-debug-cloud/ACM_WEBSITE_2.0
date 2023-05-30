@@ -9,26 +9,24 @@ import img4 from "../../assets/img4.jpg";
 const Slider_comp = () => {
   const settings = {
     className: "center",
-      centerMode: true,
-      centerPadding: "60px",
-    dots: false,
+    centerMode: true,
     infinite: true,
-    speed: 500,
+    centerPadding: "100px",
     slidesToShow: 3,
-    slidesToScroll: 3,
+    speed: 500
   };
   return (
     <div className={styles.slider}>
       <div className={styles.inner}>
         <Slider {...settings} className={styles.real_slide}>
-          <img src={img1} alt="image" className="child"/>
-          <img src={img2} alt="image" className="child"/>
-          <img src={img3} alt="image" className="child"/>
-          <img src={img4} alt="image" className="child"/>
+          <img src={img1} alt="image" className={styles.child}/>
+          <img src={img2} alt="image" className={styles.child}/>
+          <img src={img3} alt="image" className={styles.child}/>
+          <img src={img4} alt="image" className={styles.child}/>
         </Slider>
       </div>
     </div>
   );
 };
 
-export default Slider_comp;
+export default Slider_comp;1
